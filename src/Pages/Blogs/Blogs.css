@@ -29,7 +29,7 @@
         flex-direction: column;
     }
     #blog_pic {
-        width: 15rem;
+        display: none;
     }
     #blogs_head{
         flex-direction: column;
