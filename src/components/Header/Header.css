@@ -1,0 +1,16 @@
+#header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: black;
+    color: white;
+    border-radius: 0 0 1rem 1rem;
+}
+#lists{
+    list-style-type: none;
+    display: flex;
+}
+.list{
+    margin: 0 1rem;
+}
