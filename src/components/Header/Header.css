@@ -2,17 +2,17 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 1rem;
     background: black;
     color: white;
     border-radius: 0 0 1rem 1rem;
     font-family: 'Josefin Slab', serif;
     font-size: 1.5rem;
 }
-#lists{
+#lists_head{
     list-style-type: none;
     display: flex;
 }
-.list{
+.list_head{
     margin: 0 1rem;
 }
