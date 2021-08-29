@@ -16,13 +16,13 @@
     box-shadow: 3px 3px 10px #000;
 }
 .foot{
-    /* position: fixed; */
     display: flex;
+    align-items: center;
     justify-content: space-between;
     bottom: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 96%;
+    width: 97.3%;
     background: black;
     color: white;
     border-radius: 1rem 1rem 0 0;
