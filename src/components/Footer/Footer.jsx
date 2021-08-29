@@ -1,10 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import { HeartFilled } from "@ant-design/icons";
-
-import code from "../../images/code.png";
 import github from "../../images/github.gif";
-import heart from "../../images/heart.gif";
 import linkedin from "../../images/linkedin.gif";
 import medium from "../../images/medium.png";
 import twitter from "../../images/twitter.gif";
