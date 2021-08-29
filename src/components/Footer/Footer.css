@@ -22,7 +22,7 @@
     bottom: 10px;
     padding: 1rem;
     font-size: 1.5rem;
-    width: 97.3%;
+    width: 100%;
     background: black;
     color: white;
     border-radius: 1rem 1rem 0 0;
@@ -30,4 +30,19 @@
   .intro{
     display: flex;
     align-items: center;
+  }
+  .logo{
+    width: "5rem" !important;
+    border-radius: "10px" !important;
+  }
+  @media(max-width:768px){
+      .list{
+          width: 2rem;
+          height: 2rem;
+          display: flex;
+          flex-direction: column;
+      }
+      .intro{
+          display: none;
+      }
   }
