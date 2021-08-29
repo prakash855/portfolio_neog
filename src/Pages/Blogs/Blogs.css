@@ -24,3 +24,14 @@
     font-weight: bold;
     padding: 0 2rem;
 }
+@media (max-width:768px){
+    #blog{
+        flex-direction: column;
+    }
+    #blog_pic {
+        width: 15rem;
+    }
+    #blogs_head{
+        flex-direction: column;
+    }
+}
