@@ -22,12 +22,12 @@ const About = () => {
       </div>
       <div id="desc">
         <h1>About Me</h1>
-        <h3>
+        <h3 style={{fontWeight:700}}>
           Web developer who loves writing and debugging code. As an engineer, I
           am always learning and adapting to new technologies to deliver
           user-friendly,well designed, & efficient applications.
         </h3>
-        <h3>
+        <h3 style={{fontWeight:700}}>
           I am a quick learner and always curious to learn about new
           technologies. I enjoy the process of creating beautiful websites from
           designing to deploying it in the end.
