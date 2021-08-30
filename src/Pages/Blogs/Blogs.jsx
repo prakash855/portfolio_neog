@@ -1,7 +1,8 @@
 import React from "react";
-import Blog from './Blog'
+import Blog from "./Blog";
 import Medium from "../../images/blog.gif";
 import "./Blogs.css";
+import data from "./Blog.json";
 
 const Blogs = () => {
   return (
@@ -10,12 +11,14 @@ const Blogs = () => {
         <img src={Medium} alt="" />
         <h1>Welcome to my blogs!</h1>
       </div>
-      <Blog />
-      <Blog />
-      <Blog />
-      <Blog />
-      <Blog />
-      <Blog />
+      {data.map((blogData) => (
+        <Blog
+          picture={blogData.picture}
+          name={blogData.name}
+          desc={blogData.desc}
+          link={blogData.link}
+        />
+      ))}
     </div>
   );
 };

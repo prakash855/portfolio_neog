@@ -17,9 +17,9 @@ const Project = () => {
         </div>
       </div>
       <p id="about_project">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem modi
-        nisi eaque molestiae unde deleniti beatae hic accusamus. Autem facilis
-        illo incidunt neque iste voluptate, dolore beatae cum saepe expedita?
+        A website which checks whether your birthday is lucky or not by
+        calculating if sum of digits in your birthdate is divisible by your
+        lukcy number
       </p>
     </div>
   );

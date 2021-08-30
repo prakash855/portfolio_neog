@@ -1,0 +1,20 @@
+[
+    {
+        "name": "JavaScript Methods: Splice vs Slice",
+        "desc": "Arrays have so many methods in JavaScript which makes JavaScript easy to understand and apply mutations and computations, here we are going to talk about splice() and slice() today. I will also write about other functions like find(), sort(), indexOf(). These functions are being used in...",
+        "link": "https://prakash855.medium.com/javascript-methods-splice-vs-slice-b61ffef3563e",
+        "picture": "https://miro.medium.com/max/347/1*bX8_lKS2zQWNMxei33RDXA.jpeg"
+    },
+    {
+        "name": "Learn State and Props in React Js",
+        "desc": "I am using React as front end javascript library now and it is awesome! when I was a beginner and started developing small projects and I was too annoyed by terms like state and props, reusable components, virtual DOM, etc. but it took me little time and practice to...",
+        "link": "https://prakash855.medium.com/state-and-props-in-react-f84085d57173",
+        "picture": "https://miro.medium.com/max/700/1*gCfSTMaxWyM_uiej4QGKeg.jpeg"
+    },
+    {
+        "name": "Map, Reduce and Filter in JavaScript",
+        "desc": "Map, Reduce and Filter are JavaScript methods used to iterate over an array. They just iterate over an array in order to make some computations. There are two ways to iterate over an array and those are imperative and declarative. If you don’t know what are these then don’t worry. I am going to explain today in a much...",
+        "link": "https://prakash855.medium.com/map-reduce-and-filter-in-javascript-d74af763fdac",
+        "picture": "https://miro.medium.com/max/700/1*KumoYdNxhq9Yo8iOs9TFzA.jpeg"
+    }
+]
