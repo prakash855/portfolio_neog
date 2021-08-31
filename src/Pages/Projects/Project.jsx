@@ -2,11 +2,11 @@ import React from "react";
 import { Button } from "antd";
 import { ArrowRightOutlined, GithubOutlined } from "@ant-design/icons";
 
-const Project = () => {
+const Project = ({ name, desc, live, code }) => {
   return (
     <div id="main">
       <div id="pro">
-        <div id="project">Is Your Birthday Lucky?</div>
+        <div id="project">{name}</div>
         <div id="btn">
           <Button
             style={{
@@ -18,7 +18,10 @@ const Project = () => {
             ghost
             className="button"
           >
-            Demo <ArrowRightOutlined />
+            <a href={live} target="#">
+              Demo
+            </a>{" "}
+            <ArrowRightOutlined />
           </Button>
           <Button
             style={{
@@ -30,15 +33,14 @@ const Project = () => {
             ghost
             className="button"
           >
-            <GithubOutlined /> Code
+            <GithubOutlined />{" "}
+            <a href={code} target="#">
+              Code
+            </a>
           </Button>
         </div>
       </div>
-      <p id="about_project">
-        A website which checks whether your birthday is lucky or not by
-        calculating if sum of digits in your birthdate is divisible by your
-        lukcy number
-      </p>
+      <p id="about_project">{desc}</p>
     </div>
   );
 };
