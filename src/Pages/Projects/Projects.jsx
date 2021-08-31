@@ -6,7 +6,7 @@ import "./Projects.css";
 const Projects = () => {
   return (
     <div id="projects">
-      <h1>All Projects</h1>
+      <h1 style={{ fontSize: "3rem" }}>All Projects</h1>
       <Project />
       <Project />
       <Project />

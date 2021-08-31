@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Projects",
+        "desc": "I believe Project Based Learning is the best approach to learn anything. Hence, I've got projects in all the different technolgies that I've learnt over time . I'd love you to check my projects",
+        "button": "My Projects",
+        "page": "/projects"
+    },
+    {
+        "name": "Blogs",
+        "desc": "I have discovered that Learning by Writing is one of the best practices to understand the concepts in-depth well. The blog posts represent my current understanding of the concepts and are expected to be updated along my journey",
+        "button": "My Blogs",
+        "page": "/blogs"
+    }
+]

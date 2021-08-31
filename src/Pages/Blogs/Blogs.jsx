@@ -11,8 +11,9 @@ const Blogs = () => {
         <img src={Medium} alt="" />
         <h1>Welcome to my blogs!</h1>
       </div>
-      {data.map((blogData) => (
+      {data.map((blogData, id) => (
         <MyBlogs
+          key={id}
           picture={blogData.picture}
           name={blogData.name}
           desc={blogData.desc}

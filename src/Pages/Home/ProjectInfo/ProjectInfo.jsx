@@ -3,15 +3,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./ProjectInfo.css";
 
-const ProjectInfo = () => {
+const ProjectInfo = ({ name, desc, button, page }) => {
   return (
     <div id="projectinfo">
-      <h1 id="projectHeader">Projects</h1>
-      <h3 id="aboutProjects">
-        I believe Project Based Learning is the best approach to learn anything.
-        Hence, I've got projects in all the different technolgies that I've
-        learnt over time . I'd love you to check my projects
-      </h3>
+      <h1 id="projectHeader">{name}</h1>
+      <h3 id="aboutProjects">{desc}</h3>
       <Button
         style={{
           minWidth: "8rem",
@@ -22,7 +18,7 @@ const ProjectInfo = () => {
         ghost
         className="button"
       >
-        <Link to="/projects">My Projects</Link>
+        <Link to={page}>{button}</Link>
       </Button>
     </div>
   );

@@ -20,7 +20,7 @@
     display: flex;
     align-items: center;
     background: antiquewhite;
-    margin: 5px;
+    margin: 5px 8px;
     padding: 0 2px;
     border: 0.1px solid silver;
     border-radius: 5px;
@@ -40,5 +40,8 @@
     }
     #desc{
         margin: 1rem;
+    }
+    .tech{
+        margin: 5px;
     }
 }
