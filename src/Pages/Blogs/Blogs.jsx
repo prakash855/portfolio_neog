@@ -4,7 +4,7 @@ import "./Blogs.css";
 import data from "./Blog.json";
 import MyBlogs from "./MyBlogs";
 
-const Blogs = (props) => {
+const Blogs = () => {
   return (
     <div id="blogs">
       <div id="blogs_head">
