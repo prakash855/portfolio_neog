@@ -24,3 +24,34 @@
 #lst{
     margin-right: 3rem;
 }
+#hi{
+  line-height: 1;
+  font-size: 2.8rem;
+}
+#name{
+  line-height: 1;
+  font-size: 5rem;
+}
+#designation{
+  line-height: 1;
+  font-size: 1.6rem;
+}
+@media (max-width:600px){
+  #hi{
+    line-height: 1;
+    font-size: 1.8rem;
+  }
+  #name{
+    line-height: 1;
+    font-size: 2.5rem;
+  }
+  #designation{
+    line-height: 1;
+    font-size: 1rem;
+  } 
+  #intro{
+    flex-direction: column-reverse;
+    margin: 5rem 1rem;
+    align-items: flex-start;
+  }
+}

@@ -8,28 +8,34 @@ const Intro = () => {
   return (
     <div id="intro">
       <div id="info">
-        <h3 style={{ lineHeight: "1", fontSize: "2.8rem" }}>Hello! I'm</h3>
-        <h1 style={{ lineHeight: "1", fontSize: "5rem" }}>Prakash Agrahari</h1>
-        <h4 style={{ lineHeight: "1", fontSize: "1.6rem" }}>
-          Frontend Developer
-        </h4>
+        <h3 id="hi">Hello! I'm</h3>
+        <h1 id="name">Prakash Agrahari</h1>
+        <h4 id="designation">Frontend Developer</h4>
         <div className="underline"></div>
         <ul id="introlist">
           <li id="lst">
-            <a href="github.com/prakash855">
-              <FaGithubSquare
-                style={{ fontSize: "2.8rem", marginTop: "2px" }}
+            <a href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/">
+              <AiFillLinkedin
+                style={{ borderRadius: "2rem", fontSize: "3rem" }}
               />
             </a>
           </li>
           <li id="lst">
-            <a href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/">
-              <AiFillLinkedin style={{ fontSize: "3rem" }} />
+            <a href="github.com/prakash855">
+              <FaGithubSquare
+                style={{
+                  borderRadius: "2rem",
+                  fontSize: "2.8rem",
+                  marginTop: "2px",
+                }}
+              />
             </a>
           </li>
           <li id="lst">
             <a href="https://twitter.com/PrakashAgrahar3">
-              <AiFillTwitterSquare style={{ fontSize: "3rem" }} />
+              <AiFillTwitterSquare
+                style={{ borderRadius: "2rem", fontSize: "3rem" }}
+              />
             </a>
           </li>
         </ul>

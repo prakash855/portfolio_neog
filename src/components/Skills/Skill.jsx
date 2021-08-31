@@ -66,8 +66,8 @@ const Skill = () => {
   ];
   return (
     <div style={{ display: "flex", flexWrap: "wrap", marginTop: "1rem" }}>
-      {skills.map((skill) => (
-        <span className="tech">
+      {skills.map((skill, id) => (
+        <span key={id} className="tech">
           <span style={{ display: "flex" }}>{skill.icon}</span>
           <code className="code">{skill.name}</code>
         </span>

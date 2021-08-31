@@ -19,8 +19,8 @@ const About = () => {
       </div>
       <div id="desc">
         <h1>About Me</h1>
-        {desc.map((des) => (
-          <h3 style={{ fontWeight: 700 }}>{des}</h3>
+        {desc.map((des,id) => (
+          <h3 key={id} style={{ fontWeight: 700 }}>{des}</h3>
         ))}
         <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
 
