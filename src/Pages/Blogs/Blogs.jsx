@@ -1,5 +1,4 @@
 import React from "react";
-import Blog from "./Blog";
 import Medium from "../../images/blog.gif";
 import "./Blogs.css";
 import data from "./Blog.json";
