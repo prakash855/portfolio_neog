@@ -4,11 +4,6 @@ import "./Intro.css";
 import { AiFillLinkedin, AiFillTwitterSquare } from "react-icons/ai";
 import { FaGithubSquare } from "react-icons/fa";
 
-const profiles = [
-  <FaGithubSquare style={{ fontSize: "2.8rem", marginTop: "2px" }} />,
-  <AiFillLinkedin style={{ fontSize: "3rem" }} />,
-  <AiFillTwitterSquare style={{ fontSize: "3rem" }} />,
-];
 const Intro = () => {
   return (
     <div id="intro">
