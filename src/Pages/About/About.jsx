@@ -9,6 +9,7 @@ import {
   SiRedux,
   SiNpm,
 } from "react-icons/si";
+import Resume from "../../resume/myresume.pdf";
 
 const About = () => {
   return (
@@ -22,15 +23,22 @@ const About = () => {
       </div>
       <div id="desc">
         <h1>About Me</h1>
-        <h3 style={{fontWeight:700}}>
+        <h3 style={{ fontWeight: 700 }}>
           Web developer who loves writing and debugging code. As an engineer, I
           am always learning and adapting to new technologies to deliver
           user-friendly,well designed, & efficient applications.
         </h3>
-        <h3 style={{fontWeight:700}}>
+        <h3 style={{ fontWeight: 700 }}>
           I am a quick learner and always curious to learn about new
           technologies. I enjoy the process of creating beautiful websites from
           designing to deploying it in the end.
+        </h3>
+        <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
+        <h3 style={{ fontWeight: 700 }}>
+          Frontend Engineer with primary focus on React and JavaScript:{" "}
+          <a href={Resume} target="#">
+            View Resume
+          </a>
         </h3>
         <div style={{ display: "flex", flexWrap: "wrap" }}>
           <span className="tech">

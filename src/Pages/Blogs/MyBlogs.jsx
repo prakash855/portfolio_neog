@@ -1,6 +1,6 @@
 import React from "react";
 
-const Blog = ({ picture, name, desc, link }) => {
+const MyBlogs = ({ picture, name, desc, link }) => {
   return (
     <div id="blog">
       <div id="blog_head">
@@ -19,4 +19,4 @@ const Blog = ({ picture, name, desc, link }) => {
   );
 };
 
-export default Blog;
+export default MyBlogs;

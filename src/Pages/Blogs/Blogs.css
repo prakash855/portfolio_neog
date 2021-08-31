@@ -44,5 +44,6 @@
   }
   #blog_desc {
     background: wheat;
+    font-weight: bolder;
   }
 }

@@ -5,6 +5,7 @@ import About from './Pages/About/About';
 import { Switch, Route } from "react-router-dom";
 import Projects from './Pages/Projects/Projects';
 import Blogs from './Pages/Blogs/Blogs';
+import MyBlogs from './Pages/Blogs/MyBlogs';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/projects" component={Projects} />
         <Route path="/blogs" component={Blogs} />
+        <Route path="/test" component={MyBlogs} />
       </Switch>
       <Footer />
     </div>

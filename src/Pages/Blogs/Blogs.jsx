@@ -3,8 +3,9 @@ import Blog from "./Blog";
 import Medium from "../../images/blog.gif";
 import "./Blogs.css";
 import data from "./Blog.json";
+import MyBlogs from "./MyBlogs";
 
-const Blogs = () => {
+const Blogs = (props) => {
   return (
     <div id="blogs">
       <div id="blogs_head">
@@ -12,7 +13,7 @@ const Blogs = () => {
         <h1>Welcome to my blogs!</h1>
       </div>
       {data.map((blogData) => (
-        <Blog
+        <MyBlogs
           picture={blogData.picture}
           name={blogData.name}
           desc={blogData.desc}
