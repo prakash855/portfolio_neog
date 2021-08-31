@@ -8,9 +8,62 @@ import {
   SiReact,
   SiRedux,
   SiNpm,
+  SiNetlify,
+  SiStyledComponents,
+  SiIonic,
 } from "react-icons/si";
 import Resume from "../../resume/myresume.pdf";
 
+const skills = [
+  {
+    name: "HTML5",
+    icon: <AiFillHtml5 />,
+  },
+  {
+    name: "CSS3",
+    icon: <DiCss3 />,
+  },
+  {
+    name: "ANT DESIGN",
+    icon: <AiOutlineAntDesign />,
+  },
+  {
+    name: "MATERIAL UI",
+    icon: <SiMaterialUi />,
+  },
+  {
+    name: "STYLED-COMPONENT",
+    icon: <SiStyledComponents />,
+  },
+  {
+    name: "JAVASCRIPT",
+    icon: <SiJavascript />,
+  },
+  {
+    name: "REACT JS",
+    icon: <SiReact />,
+  },
+  {
+    name: "REDUX",
+    icon: <SiRedux />,
+  },
+  {
+    name: "IONIC REACT",
+    icon: <SiIonic />,
+  },
+  {
+    name: "GITHUB",
+    icon: <AiFillGithub />,
+  },
+  {
+    name: "NETLIFY",
+    icon: <SiNetlify />,
+  },
+  {
+    name: "NPM",
+    icon: <SiNpm />,
+  },
+];
 const About = () => {
   return (
     <div id="about">
@@ -34,7 +87,7 @@ const About = () => {
           designing to deploying it in the end.
         </h3>
         <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
-        
+
         <h3 style={{ fontWeight: 700 }}>
           Frontend Engineer with primary focus on React and JavaScript:{" "}
           <a href={Resume} target="#">
@@ -42,71 +95,12 @@ const About = () => {
           </a>
         </h3>
         <div style={{ display: "flex", flexWrap: "wrap", marginTop: "1rem" }}>
-          <span className="tech">
-            <span>
-              <AiFillHtml5 />
+          {skills.map((skill) => (
+            <span className="tech">
+              <span style={{display:"flex"}}>{skill.icon}</span>
+              <code className="code">{skill.name}</code>
             </span>
-            <code className="code">HTML5</code>
-          </span>
-          <span className="tech">
-            <span>
-              <DiCss3 />
-            </span>
-            <code className="code">CSS3</code>
-          </span>
-          <span className="tech">
-            <span>
-              <SiMaterialUi />
-            </span>
-            <code className="code">MATERIAL UI</code>
-          </span>
-          <span className="tech">
-            <span>
-              <AiOutlineAntDesign />
-            </span>
-            <code className="code">ANT DESIGN</code>
-          </span>
-          <span className="tech">
-            <span>
-              <img
-                style={{ width: "1rem" }}
-                src="https://semantic-ui.com/images/logo.png"
-                alt=""
-              />
-            </span>
-            <code className="code">SEMANTIC UI</code>
-          </span>
-          <span className="tech">
-            <span>
-              <SiJavascript />
-            </span>
-            <code className="code">JAVASCRIPT</code>
-          </span>
-
-          <span className="tech">
-            <span>
-              <SiReact />
-            </span>
-            <code className="code">REACT JS</code>
-          </span>
-          <span className="tech">
-            <span>
-              <SiRedux />
-            </span>
-            <code className="code">REDUX</code>
-          </span>
-          <span className="tech">
-            <span>
-              <AiFillGithub />
-            </span>
-            <code className="code">GIT</code>
-          </span>
-          <span className="tech">
-            <span>
-              <SiNpm />
-            </span>
-            <code className="code">NPM</code>
-          </span>
+          ))}
         </div>
       </div>
     </div>

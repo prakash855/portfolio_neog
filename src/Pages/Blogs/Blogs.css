@@ -41,6 +41,8 @@
   }
   #blog_name {
     border-radius: 10px 10px 0 0;
+    background: none;
+    color: brown;
   }
   #blog_desc {
     background: wheat;
