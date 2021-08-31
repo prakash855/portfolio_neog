@@ -14,14 +14,14 @@ const Intro = () => {
         <div className="underline"></div>
         <ul id="introlist">
           <li id="lst">
-            <a href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/">
+            <a href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/" target="#">
               <AiFillLinkedin
                 style={{ borderRadius: "2rem", fontSize: "3rem" }}
               />
             </a>
           </li>
           <li id="lst">
-            <a href="github.com/prakash855">
+            <a href="https://github.com/prakash855" target="#">
               <FaGithubSquare
                 style={{
                   borderRadius: "2rem",
@@ -32,7 +32,7 @@ const Intro = () => {
             </a>
           </li>
           <li id="lst">
-            <a href="https://twitter.com/PrakashAgrahar3">
+            <a href="https://twitter.com/PrakashAgrahar3" target="#">
               <AiFillTwitterSquare
                 style={{ borderRadius: "2rem", fontSize: "3rem" }}
               />
