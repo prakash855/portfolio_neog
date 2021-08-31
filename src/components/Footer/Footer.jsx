@@ -5,7 +5,7 @@ import github from "../../images/github.gif";
 import linkedin from "../../images/linkedin.gif";
 import medium from "../../images/medium.png";
 import twitter from "../../images/twitter.gif";
-import Prakash from '../../images/prakash.gif'
+import Prakash from "../../images/prakash.gif";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -48,7 +48,8 @@ const Footer = () => {
           </a>
         </ul>
         <p className="intro">
-          Coded With &nbsp;
+          <a href="https://github.com/prakash855/portfolio_neog" target="#">Coded&nbsp;</a> With
+          &nbsp;
           <HeartFilled style={{ color: "red" }} />
           &nbsp; By PRAKASH
         </p>

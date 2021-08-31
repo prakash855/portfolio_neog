@@ -8,10 +8,28 @@ const Project = () => {
       <div id="pro">
         <div id="project">Is Your Birthday Lucky?</div>
         <div id="btn">
-          <Button type="primary" ghost className="button">
+          <Button
+            style={{
+              minWidth: "6rem",
+              marginTop: "5px",
+              boxShadow: "1px 1px 2px #1890ff",
+            }}
+            type="primary"
+            ghost
+            className="button"
+          >
             Demo <ArrowRightOutlined />
           </Button>
-          <Button type="primary" ghost className="button">
+          <Button
+            style={{
+              minWidth: "6rem",
+              marginTop: "5px",
+              boxShadow: "1px 1px 2px #1890ff",
+            }}
+            type="primary"
+            ghost
+            className="button"
+          >
             <GithubOutlined /> Code
           </Button>
         </div>

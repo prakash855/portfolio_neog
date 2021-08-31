@@ -34,13 +34,14 @@ const About = () => {
           designing to deploying it in the end.
         </h3>
         <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
+        
         <h3 style={{ fontWeight: 700 }}>
           Frontend Engineer with primary focus on React and JavaScript:{" "}
           <a href={Resume} target="#">
             View Resume
           </a>
         </h3>
-        <div style={{ display: "flex", flexWrap: "wrap" }}>
+        <div style={{ display: "flex", flexWrap: "wrap", marginTop: "1rem" }}>
           <span className="tech">
             <span>
               <AiFillHtml5 />
