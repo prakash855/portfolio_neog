@@ -8,7 +8,7 @@
     {
         "name": "Blogs",
         "desc": "I have discovered that Learning by Writing is one of the best practices to understand the concepts in-depth well. The blog posts represent my current understanding of the concepts and are expected to be updated along my journey",
-        "button": "My Blogs",
+        "button": "Read Blogs",
         "page": "/blogs"
     }
 ]
