@@ -1,0 +1,9 @@
+#projectinfo {
+  display: flex;
+  border: 1px solid;
+  margin: 5rem 1rem;
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px #000;
+  align-items: center;
+  padding: 5rem;
+}

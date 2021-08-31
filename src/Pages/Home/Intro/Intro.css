@@ -1,0 +1,26 @@
+#intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 2rem;
+}
+#info {
+  text-align: left;
+}
+.underline {
+  margin-bottom: 0.8rem;
+  margin-left: 0;
+  width: 14rem;
+  height: 0.3rem;
+  margin-right: auto;
+  background: #2caeba;
+}
+#introlist{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+#lst{
+    margin-right: 3rem;
+}

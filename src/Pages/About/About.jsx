@@ -1,68 +1,11 @@
 import React from "react";
 import "./About.css";
-import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
-import {
-  SiMaterialUi,
-  SiJavascript,
-  SiReact,
-  SiRedux,
-  SiNpm,
-  SiNetlify,
-  SiStyledComponents,
-  SiIonic,
-} from "react-icons/si";
 import Resume from "../../resume/myresume.pdf";
+import Skill from "../../components/Skills/Skill";
 
-const skills = [
-  {
-    name: "HTML5",
-    icon: <AiFillHtml5 />,
-  },
-  {
-    name: "CSS3",
-    icon: <DiCss3 />,
-  },
-  {
-    name: "ANT DESIGN",
-    icon: <AiOutlineAntDesign />,
-  },
-  {
-    name: "MATERIAL UI",
-    icon: <SiMaterialUi />,
-  },
-  {
-    name: "STYLED-COMPONENT",
-    icon: <SiStyledComponents />,
-  },
-  {
-    name: "JAVASCRIPT",
-    icon: <SiJavascript />,
-  },
-  {
-    name: "REACT JS",
-    icon: <SiReact />,
-  },
-  {
-    name: "REDUX",
-    icon: <SiRedux />,
-  },
-  {
-    name: "IONIC REACT",
-    icon: <SiIonic />,
-  },
-  {
-    name: "GITHUB",
-    icon: <AiFillGithub />,
-  },
-  {
-    name: "NETLIFY",
-    icon: <SiNetlify />,
-  },
-  {
-    name: "NPM",
-    icon: <SiNpm />,
-  },
+const desc = [
+  "Web developer who loves writing and debugging code. As an engineer, I am always learning and adapting to new technologies to deliver user-friendly,well designed, & efficient applications.",
+  "I am a quick learner and always curious to learn about new technologies. I enjoy the process of creating beautiful websites from designing to deploying it in the end.",
 ];
 const About = () => {
   return (
@@ -76,16 +19,9 @@ const About = () => {
       </div>
       <div id="desc">
         <h1>About Me</h1>
-        <h3 style={{ fontWeight: 700 }}>
-          Web developer who loves writing and debugging code. As an engineer, I
-          am always learning and adapting to new technologies to deliver
-          user-friendly,well designed, & efficient applications.
-        </h3>
-        <h3 style={{ fontWeight: 700 }}>
-          I am a quick learner and always curious to learn about new
-          technologies. I enjoy the process of creating beautiful websites from
-          designing to deploying it in the end.
-        </h3>
+        {desc.map((des) => (
+          <h3 style={{ fontWeight: 700 }}>{des}</h3>
+        ))}
         <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
 
         <h3 style={{ fontWeight: 700 }}>
@@ -94,14 +30,7 @@ const About = () => {
             View Resume
           </a>
         </h3>
-        <div style={{ display: "flex", flexWrap: "wrap", marginTop: "1rem" }}>
-          {skills.map((skill) => (
-            <span className="tech">
-              <span style={{display:"flex"}}>{skill.icon}</span>
-              <code className="code">{skill.name}</code>
-            </span>
-          ))}
-        </div>
+        <Skill />
       </div>
     </div>
   );
