@@ -18,9 +18,9 @@ const Project = ({ name, desc, live, code }) => {
             ghost
             className="button"
           >
-            <a href={live} target="#">
+            <a href={live} target="_blank" rel="noreferrer">
               Demo
-            <ArrowRightOutlined />
+              <ArrowRightOutlined />
             </a>
           </Button>
           <Button
@@ -33,8 +33,8 @@ const Project = ({ name, desc, live, code }) => {
             ghost
             className="button"
           >
-            <a href={code} target="#">
-            <GithubOutlined />
+            <a href={code} target="_blank" rel="noreferrer">
+              <GithubOutlined />
               Code
             </a>
           </Button>

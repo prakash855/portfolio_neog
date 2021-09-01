@@ -26,8 +26,8 @@
     {
         "name": "Emoji-Interpreter App",
         "desc": "This is an emoji Interpreter App made using React on CodeSandBox Platform, An Application which has basic React features like hooks and reuasable components",
-        "live": "https://q1uwr.csb.app/",
-        "code": "https://github.com/prakash855/Emoji_neog_app"
+        "live": "https://emojimark8.netlify.app/",
+        "code": "https://github.com/prakash855/emoji_interpreter"
     },
     {
         "name": "Music Recommend. App 🎵",
