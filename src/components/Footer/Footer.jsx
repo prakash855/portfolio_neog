@@ -7,7 +7,6 @@ import medium from "../../images/medium.png";
 import twitter from "../../images/twitter.gif";
 import Prakash from "../../images/prakash.gif";
 import Mail from "../../images/mail.gif";
-import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="footer">
