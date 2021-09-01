@@ -62,13 +62,7 @@
     {
         "name": "Stock profit & Loss Calculator App",
         "desc": "Just an fun app to check whether you are lucky or not...",
-        "live": "https://mark14teen.netlify.app/",
-        "code": "https://github.com/prakash855/neoG-MarkFourteen"
-    },
-    {
-        "name": "Personal Expenses",
-        "desc": "A personal expense app for daily uses Created using VanillaJS...",
-        "live": "",
-        "code": ""
+        "live": "https://stockm14.netlify.app/",
+        "code": "https://github.com/prakash855/mark14"
     }
 ]
