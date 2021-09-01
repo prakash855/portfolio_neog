@@ -43,7 +43,7 @@ const Intro = () => {
           </li>
         </ul>
       </div>
-      <img style={{ marginBottom: "1rem" }} src={Dev} alt="" />
+      <img style={{ marginBottom: "3rem" }} src={Dev} alt="" />
     </div>
   );
 };
