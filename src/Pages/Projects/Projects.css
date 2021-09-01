@@ -2,8 +2,8 @@
   margin: 1rem;
 }
 #project {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 1.2rem;
+  font-weight: 900;
 }
 #pro {
   width: 40%;
@@ -33,10 +33,21 @@
   border-radius: 20px;
   font-weight: 700;
 }
-@media(max-width:600px){
-  #pro{
+@media (max-width: 600px) {
+  #pro {
     width: 50%;
+    align-items: center;
   }
-  /* #about_project{
-  } */
+  #main {
+    padding: 1rem;
+    margin: 2rem 0;
+    align-items: center;
+  }
+  #project {
+    max-width: 90%;
+    border: 1px solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    background: rgb(145, 145, 145);
+  }
 }

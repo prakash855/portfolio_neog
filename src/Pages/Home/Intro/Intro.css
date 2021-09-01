@@ -48,6 +48,7 @@
   #designation{
     line-height: 1;
     font-size: 1rem;
+    font-weight: bold;
   } 
   #intro{
     flex-direction: column-reverse;

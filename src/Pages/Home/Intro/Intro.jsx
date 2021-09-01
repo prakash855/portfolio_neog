@@ -14,7 +14,10 @@ const Intro = () => {
         <div className="underline"></div>
         <ul id="introlist">
           <li id="lst">
-            <a href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/" target="#">
+            <a
+              href="https://www.linkedin.com/in/prakash-agrahari-a5655312b/"
+              target="#"
+            >
               <AiFillLinkedin
                 style={{ borderRadius: "2rem", fontSize: "3rem" }}
               />
@@ -40,7 +43,7 @@ const Intro = () => {
           </li>
         </ul>
       </div>
-      <img src={Dev} alt="" />
+      <img style={{ marginBottom: "1rem" }} src={Dev} alt="" />
     </div>
   );
 };
