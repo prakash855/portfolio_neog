@@ -6,13 +6,15 @@ import linkedin from "../../images/linkedin.gif";
 import medium from "../../images/medium.png";
 import twitter from "../../images/twitter.gif";
 import Prakash from "../../images/prakash.gif";
+import Mail from "../../images/mail.gif";
+import { AiOutlineMail } from "react-icons/ai";
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="foot">
         <div id="prakash">
           <img
-            style={{ width: "5rem", borderRadius: "10px" }}
+          className="logo"
             src={Prakash}
             alt=""
           />
@@ -46,10 +48,28 @@ const Footer = () => {
               />
             </li>
           </a>
+          <a href="mailto:sshivamprakashh301@gmail.com" target="#">
+            <li>
+              <img
+                style={{ background: "white" }}
+                className="list"
+                src={Mail}
+                alt=""
+              />
+            </li>
+          </a>
         </ul>
+        {/* <p>
+          <a href="mailto:sshivamprakashh301@gmail.com" target="#">
+            Contact Me &nbsp;
+            <AiOutlineMail />
+          </a>
+        </p> */}
         <p className="intro">
-          <a href="https://github.com/prakash855/portfolio_neog" target="#">Coded&nbsp;</a> With
-          &nbsp;
+          <a href="https://github.com/prakash855/portfolio_neog" target="#">
+            Coded&nbsp;
+          </a>{" "}
+          With &nbsp;
           <HeartFilled style={{ color: "red" }} />
           &nbsp; By PRAKASH
         </p>
