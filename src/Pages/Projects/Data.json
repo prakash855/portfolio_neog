@@ -7,25 +7,25 @@
     },
     {
         "name": "Do you know Prayagraj?",
-        "desc": "A CLI app built with nodeJS. It is a JavaScript CLI quiz app about Praygraj.",
+        "desc": "A CLI app built with nodeJS. It is a JavaScript CLI quiz app about Praygraj. It is fun game, at last it will return the results of the quationair",
         "live": "replit.com/@prakashagrahari/doyouknowprayagraj#index.js",
         "code": "https://github.com/prakash855/doyouknowprayagraj"
     },
     {
         "name": "Banana Talk",
-        "desc": "Banana Translator App using Minion API.",
+        "desc": "Banana Translator App using Minion API. this is application is made using HTML, CSS and vanila JavaScript",
         "live": "bananaspeaker.netlify.app/",
         "code": "https://github.com/prakash855/neog-banana-speaks"
     },
     {
         "name": "Yoda Talk",
-        "desc": "Fun Translation App using Yoda API.",
+        "desc": "Fun Translation App using Yoda API. this is application is made using HTML, CSS and vanila JavaScript",
         "live": "neogyoda.netlify.app/",
         "code": "https://github.com/prakash855/neog-yoda-speaks"
     },
     {
         "name": "Emoji-Interpreter App",
-        "desc": "This is an emoji Interpreter App made using React on CodeSandBox Platform.",
+        "desc": "This is an emoji Interpreter App made using React on CodeSandBox Platform, An Application which has basic React features like hooks and reuasable components",
         "live": "q1uwr.csb.app/",
         "code": "https://github.com/prakash855/Emoji_neog_app"
     },
@@ -49,7 +49,7 @@
     },
     {
         "name": "Fun with Triangles🔺",
-        "desc": "A simple yet powerful tool for learning about triangles.",
+        "desc": "A simple yet powerful tool for learning about triangles., An Application where all the basic calculation related to Triangle can be solved, like finding area, finding whther triangle is possible or not, a quizz related to the triangle which will return the score you earn, it is fun! Play it now!",
         "live": "http://mytriangle.netlify.com/",
         "code": "https://github.com/prakash855/mark12"
     },
