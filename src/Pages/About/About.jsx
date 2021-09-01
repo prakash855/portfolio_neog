@@ -22,7 +22,7 @@ const About = () => {
         {desc.map((des,id) => (
           <h3 key={id} style={{ fontWeight: 700 }}>{des}</h3>
         ))}
-        <h2 style={{ fontWeight: 600 }}>My Expertise</h2>
+        <h2 style={{ fontWeight: 700 }}>My Expertise</h2>
 
         <h3 style={{ fontWeight: 700 }}>
           Frontend Engineer with primary focus on React and JavaScript:{" "}

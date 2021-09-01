@@ -20,8 +20,8 @@ const Project = ({ name, desc, live, code }) => {
           >
             <a href={live} target="#">
               Demo
-            </a>{" "}
             <ArrowRightOutlined />
+            </a>
           </Button>
           <Button
             style={{
@@ -33,8 +33,8 @@ const Project = ({ name, desc, live, code }) => {
             ghost
             className="button"
           >
-            <GithubOutlined />{" "}
             <a href={code} target="#">
+            <GithubOutlined />
               Code
             </a>
           </Button>
