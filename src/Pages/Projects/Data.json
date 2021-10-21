@@ -64,5 +64,11 @@
         "desc": "Just an fun app to check whether you are lucky or not...",
         "live": "https://stockm14.netlify.app/",
         "code": "https://github.com/prakash855/mark14"
+    },
+    {
+        "name": "Data Representation React App Using Chart JS",
+        "desc": "An app to showcase datas of fake api in pie and bar chart form using few seconds of loader; tech used-(React JS & Material UI)",
+        "live": "https://profileui.netlify.app/",
+        "code": "https://github.com/prakash855/profile_ui"
     }
 ]
