@@ -28,6 +28,9 @@
   padding: 0 2rem;
   text-align: left;
 }
+.ant-tabs-tab, .ant-tabs-tab-active{
+  font-size: 1.5rem !important;
+}
 @media (max-width: 768px) {
   #blog {
     flex-direction: column;
@@ -47,5 +50,8 @@
   #blog_desc {
     background: wheat;
     font-weight: bolder;
+  }
+  .ant-tabs-tab, .ant-tabs-tab-active{
+    font-size: 10px !important;
   }
 }
