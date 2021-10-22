@@ -73,7 +73,7 @@
     },
     {
         "name": "Dentist Management System",
-        "desc": "An app for dentists, this app can be used to shedule and appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form, tech used-(React JS & Antd), this is Responive Application!",
+        "desc": "An app for dentists, this app can be used to schedule an appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form using fake API data, tech used-(React JS & Antd), this is Responive Application!",
         "live": "https://myhospitalmanager.netlify.app/",
         "code": "https://github.com/prakash855/hospital-management"
     }
