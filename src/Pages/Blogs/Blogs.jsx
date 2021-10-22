@@ -2,7 +2,7 @@ import React from "react";
 import { Tabs } from "antd";
 import Medium from "../../images/blog.gif";
 import Quora from "../../images/quora.png";
-import Quoraa from '../../images/quoraa.png'
+import Quoraa from "../../images/quoraa.png";
 import "./Blogs.css";
 import TechData from "./TechBlog.json";
 import NonTechData from "./NonTechData.json";
@@ -17,13 +17,23 @@ const Blogs = () => {
   return (
     <div id="blogs">
       <div id="blogs_head">
-        <img style={{width:"2rem"}} src={Medium} alt="" />
+        <img style={{ width: "2rem" }} src={Medium} alt="" />
         <h1>Welcome to my blogs!</h1>
         <img src={Quoraa} alt="" />
       </div>
-      <Tabs type="card" tabBarStyle={{color:"black"}} defaultActiveKey="1" onChange={callback} centered size="large">
+      <Tabs
+        type="card"
+        tabBarStyle={{ color: "black" }}
+        defaultActiveKey="1"
+        onChange={callback}
+        centered
+        size="large"
+      >
         <TabPane
-          tab={["Technical Blogs ", <img style={{width:"1.5rem"}} src={Medium} alt="" />]}
+          tab={[
+            "Technical Blogs ",
+            <img style={{ width: "1.5rem" }} src={Medium} alt="" />,
+          ]}
           key="1"
         >
           {TechData.map((blogData, id) => (
