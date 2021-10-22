@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import Resume from "../../resume/myresume.pdf";
+import Resume from "../../resume/resume.pdf";
 import Skill from "../../components/Skills/Skill";
 
 const desc = [
