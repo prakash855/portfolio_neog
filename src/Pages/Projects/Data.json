@@ -70,5 +70,11 @@
         "desc": "An app to showcase datas of fake api in pie and bar chart form using few seconds of loader; tech used-(React JS & Material UI)",
         "live": "https://profileui.netlify.app/",
         "code": "https://github.com/prakash855/profile_ui"
+    },
+    {
+        "name": "Dentist Management System",
+        "desc": "An app for dentists, this app can be used to shedule and appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form, tech used-(React JS & Antd), this is Responive Application!",
+        "live": "https://myhospitalmanager.netlify.app/",
+        "code": "https://github.com/prakash855/hospital-management"
     }
 ]
