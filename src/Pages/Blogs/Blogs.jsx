@@ -1,7 +1,6 @@
 import React from "react";
 import { Tabs } from "antd";
 import Medium from "../../images/blog.gif";
-import Quora from "../../images/quora.png";
 import Quoraa from "../../images/quoraa.png";
 import "./Blogs.css";
 import TechData from "./TechBlog.json";
