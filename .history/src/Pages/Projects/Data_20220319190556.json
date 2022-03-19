@@ -76,11 +76,5 @@
         "desc": "An app for dentists, this app can be used to schedule an appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form using fake API data, tech used-(React JS & Antd), this is Responive Application!",
         "live": "https://myhospitalmanager.netlify.app/",
         "code": "https://github.com/prakash855/hospital-management"
-    },
-    {
-        "name": "Component Library",
-        "desc": "A Component Library (Pencil UI) like your own bootstrap, where you have all the predefined classes and you just have to use those classes and you are ready to go!",
-        "live": "https://pencil-ui.netlify.app/",
-        "code": "https://github.com/prakash855/Pencil-UI"
     }
 ]
