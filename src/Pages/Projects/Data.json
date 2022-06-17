@@ -85,7 +85,7 @@
   },
   {
     "name": "E-Commerse Application",
-    "desc": "An E-Commerse Application where one can get list of products and with screens like authentication using React Js, Wishlist, MyCart",
+    "desc": "An E-Commerse Application where one can get list of products and with functionalities like authentication, Wishlist, MyCart and having checkout options as well",
     "live": "https://ebazaar.netlify.app/",
     "code": "https://github.com/prakash855/eBazaar"
   }
