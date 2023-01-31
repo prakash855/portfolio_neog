@@ -85,8 +85,14 @@
   },
   {
     "name": "E-Commerse Application",
-    "desc": "An E-Commerse Application where one can get list of products and with functionalities like authentication, Wishlist, MyCart and having checkout options as well",
+    "desc": "An E-Commerse Application where one can get list of products and with functionalities like authentication, Wishlist, MyCart and having checkout options as well.",
     "live": "https://ebazaar.netlify.app/",
     "code": "https://github.com/prakash855/eBazaar"
+  },
+  {
+    "name": "Disney+ Clone",
+    "desc": "A clone of well known entertainment video application, encompasses of firebase authentication, listing of categories like Originals & Trendings, contains seperate beutiful details page of each item.",
+    "live": "https://disney-plus-cdf5c.web.app/",
+    "code": "https://github.com/prakash855/disney-clone"
   }
 ]
