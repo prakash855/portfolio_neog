@@ -1,7 +1,7 @@
 import React from "react";
 
 import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub } from "react-icons/ai";
-import { DiCss3, DiBootstrap, DiVisualstudio, DiLinux } from "react-icons/di";
+import { DiCss3, DiBootstrap, DiVisualstudio } from "react-icons/di";
 import { FcLinux } from "react-icons/fc";
 import {
   SiMaterialUi,
