@@ -1,7 +1,8 @@
 import React from "react";
 
 import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub } from "react-icons/ai";
-import { DiCss3 } from "react-icons/di";
+import { DiCss3, DiBootstrap, DiVisualstudio, DiLinux } from "react-icons/di";
+import { FcLinux } from "react-icons/fc";
 import {
   SiMaterialUi,
   SiJavascript,
@@ -74,6 +75,21 @@ const Skill = () => {
       name: "NPM",
       icon: <SiNpm />,
       color: "red",
+    },
+    {
+      name: "BOOTSTRAP",
+      icon: <DiBootstrap />,
+      color: "#7010F4",
+    },
+    {
+      name: "VISUAL STUDIO CODE",
+      icon: <DiVisualstudio />,
+      color: "#21A5F1",
+    },
+    {
+      name: "LINUX",
+      icon: <FcLinux />,
+      color: "#21A5F1",
     },
   ];
   return (
