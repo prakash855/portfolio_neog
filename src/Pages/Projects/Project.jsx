@@ -1,47 +1,46 @@
 import React from "react";
-import { Button } from "antd";
-import { ArrowRightOutlined, GithubOutlined } from "@ant-design/icons";
+import { Card, Popover, Space, Typography, Button } from "antd";
+const { Title, Text } = Typography;
 
 const Project = ({ name, desc, live, code }) => {
   return (
-    <div id="main">
-      <div id="pro">
-        <div id="project">{name}</div>
-        <div id="btn">
-          <Button
-            style={{
-              minWidth: "6rem",
-              marginTop: "5px",
-              boxShadow: "1px 1px 2px #1890ff",
-            }}
-            type="primary"
-            ghost
-            className="button"
+    <Space direction="vertical" size={16}>
+      <Card
+        title={<Title level={5}>{name}</Title>}
+        style={{
+          width: 300,
+          margin: "1rem",
+        }}
+      >
+        <p>
+          {<Text strong>{desc.slice(0, 100)}</Text>}...
+          <Popover
+            content={<Text strong>{desc}</Text>}
+            title={<Title level={5}>{name}</Title>}
+            trigger="click"
           >
-            <a href={live} target="_blank" rel="noreferrer">
-              Demo
-              <ArrowRightOutlined />
-            </a>
+            <Button type="link">More...</Button>
+          </Popover>
+        </p>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-evenly",
+          }}
+        >
+          <Button type="primary">
+            <a href={code} target="_blank" rel="noreferrer">{`Code </>`}</a>
           </Button>
-          <Button
-            style={{
-              minWidth: "6rem",
-              marginTop: "5px",
-              boxShadow: "1px 1px 2px #1890ff",
-            }}
-            type="primary"
-            ghost
-            className="button"
-          >
-            <a href={code} target="_blank" rel="noreferrer">
-              <GithubOutlined />
-              Code
-            </a>
+          <Button onClick={live}>
+            <a
+              href={live}
+              target="_blank"
+              rel="noreferrer"
+            >{`👁 View Project`}</a>
           </Button>
         </div>
-      </div>
-      <p id="about_project">{desc}</p>
-    </div>
+      </Card>
+    </Space>
   );
 };
 

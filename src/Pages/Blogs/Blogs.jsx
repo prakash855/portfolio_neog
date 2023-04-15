@@ -25,8 +25,8 @@ const desc = [
 
 const Blogs = () => {
   return (
-    <div id="blogs">
-      <div id="blogs_head">
+    <div className="blogs">
+      <div className="blogs_head">
         <h1>Welcome to my blogs!</h1>
       </div>
       <Tabs
@@ -45,13 +45,7 @@ const Blogs = () => {
           key="1"
         >
           {TechData.map((blogData, id) => (
-            <MyBlogs
-              key={id}
-              picture={blogData.picture}
-              name={blogData.name}
-              desc={blogData.desc}
-              link={blogData.link}
-            />
+            <MyBlogs key={id} {...blogData} />
           ))}
         </TabPane>
         <TabPane tab={["Non-Technical Blogs ", <SolutionOutlined />]} key="2">
@@ -65,21 +59,15 @@ const Blogs = () => {
           >
             <TabPane tab={["Quora", <img src={Quoraa} alt="" />]} key="1">
               {NonTechData.map((blogData, id) => (
-                <MyBlogs
-                  key={id}
-                  picture={blogData.picture}
-                  name={blogData.name}
-                  desc={blogData.desc}
-                  link={blogData.link}
-                />
+                <MyBlogs key={id} {...blogData} />
               ))}
             </TabPane>
             <TabPane tab={["Food Blog", <InstagramOutlined />]} key="2">
-              <div id="about">
+              <div className="about">
                 <div>
-                  <img id="dp" src={Blogger} alt="" />
+                  <img className="dp" src={Blogger} alt="" />
                 </div>
-                <div id="desc">
+                <div className="desc">
                   <h1>About Me</h1>
                   {desc.map((des, id) => (
                     <h3 key={id} style={{ fontWeight: 700 }}>

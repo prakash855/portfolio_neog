@@ -1,16 +1,16 @@
-#about {
+.about {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: 3.2rem 8px;
 }
-#dp {
+.dp {
   width: 25rem;
   border: 1px solid;
   border-radius: 10px;
   box-shadow: 3px 3px 10px #000;
 }
-#desc {
+.desc {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -31,14 +31,14 @@
   /* font-weight: 600; */
 }
 @media (max-width: 425px) {
-  #about {
+  .about {
     display: flex;
     flex-direction: column;
   }
-  #dp {
+  .dp {
     width: 18rem !important;
   }
-  #desc {
+  .desc {
     margin: 1rem;
   }
   .tech {

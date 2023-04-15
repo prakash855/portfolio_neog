@@ -10,11 +10,11 @@ const desc = [
 ];
 const About = () => {
   return (
-    <div id="about">
+    <div className="about">
       <div>
-        <img id="dp" src={Prakash} alt="" />
+        <img className="dp" src={Prakash} alt="" />
       </div>
-      <div id="desc">
+      <div className="desc">
         <h1>About Me</h1>
         {desc.map((des, id) => (
           <h3 key={id} style={{ fontWeight: 700 }}>
