@@ -78,6 +78,12 @@
     "code": "https://github.com/prakash855/hospital-management"
   },
   {
+    "name": "Food Order App",
+    "desc": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home. All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!",
+    "live": "https://food-order-app-cyan.vercel.app/",
+    "code": "https://github.com/prakash855/food-order-app"
+  },
+  {
     "name": "Component Library",
     "desc": "A Component Library (Pencil UI) like your own bootstrap, where you have all the predefined classes and you just have to use those classes and you are ready to go!",
     "live": "https://pencil-ui.netlify.app/",
@@ -94,5 +100,11 @@
     "desc": "A clone of well known entertainment video application, encompasses of firebase authentication, listing of categories like Originals & Trendings, contains seperate beutiful details page of each item.",
     "live": "https://disney-plus-cdf5c.web.app/",
     "code": "https://github.com/prakash855/disney-clone"
+  },
+  {
+    "name": "CRUD using MERN",
+    "desc": "Recently I have been learning basics of express & node & mongoDB, and created this basic app using MERN.",
+    "live": "https://i-too-social.netlify.app/",
+    "code": "https://github.com/prakash855/iSocial"
   }
 ]
