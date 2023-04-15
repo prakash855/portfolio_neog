@@ -103,7 +103,7 @@
   },
   {
     "name": "CRUD using MERN",
-    "desc": "Recently I have been learning basics of express & node & mongoDB, and created this basic app using MERN.",
+    "desc": "Recently I have been learning basics of express & node & mongoDB, and created this basic app using MERN (MongoDB, Express, React & Node).",
     "live": "https://i-too-social.netlify.app/",
     "code": "https://github.com/prakash855/iSocial"
   }
