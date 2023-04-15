@@ -1,5 +1,11 @@
 [
     {
+        "name": "Basics of HTML",
+        "desc": "HTML is the foundation of the web and is used to create web pages. In this blog post, we will explore some key features and best practices for writing high-quality HTML code....",
+        "link": "https://medium.com/@prakash855/basics-you-should-never-miss-about-html-b7a21a2d0c31",
+        "picture": "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*G4BpdI7ghuas3slz0ygdIw.jpeg"
+    },
+    {
         "name": "JavaScript Methods: Splice vs Slice",
         "desc": "Arrays have so many methods in JavaScript which makes JavaScript easy to understand and apply mutations and computations, here we are going to talk about splice() and slice() today. I will also write about other functions like find(), sort(), indexOf(). These functions are being used in...",
         "link": "https://prakash855.medium.com/javascript-methods-splice-vs-slice-b61ffef3563e",
