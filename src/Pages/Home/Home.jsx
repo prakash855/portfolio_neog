@@ -1,4 +1,5 @@
 import React from "react";
+import { Card } from "antd";
 import About from "../About/About";
 import Intro from "./Intro/Intro";
 import ProjectInfo from "./ProjectInfo/ProjectInfo";
@@ -9,14 +10,11 @@ const Home = () => {
     <div id="home">
       <Intro />
       <About />
-      {Data.map((data) => (
-        <ProjectInfo
-          name={data.name}
-          desc={data.desc}
-          button={data.button}
-          page={data.page}
-        />
-      ))}
+      <Card>
+        {Data.map((data) => (
+          <ProjectInfo {...data} />
+        ))}
+      </Card>
     </div>
   );
 };

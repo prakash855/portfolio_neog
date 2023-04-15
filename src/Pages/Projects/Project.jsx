@@ -6,6 +6,7 @@ const Project = ({ name, desc, live, code }) => {
   return (
     <Space direction="vertical" size={16}>
       <Card
+        hoverable
         title={<Title level={5}>{name}</Title>}
         style={{
           width: 300,

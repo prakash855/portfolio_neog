@@ -12,11 +12,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="foot">
         <div id="prakash">
-          <img
-          className="logo"
-            src={Prakash}
-            alt=""
-          />
+          <img className="logo" src={Prakash} alt="" />
         </div>
         <ul className="lists">
           <a
@@ -58,15 +54,9 @@ const Footer = () => {
             </li>
           </a>
         </ul>
-        {/* <p>
-          <a href="mailto:sshivamprakashh301@gmail.com" target="#">
-            Contact Me &nbsp;
-            <AiOutlineMail />
-          </a>
-        </p> */}
         <p className="intro">
           <a href="https://github.com/prakash855/portfolio_neog" target="#">
-            Coded&nbsp;
+            Coded{"</>"}&nbsp;
           </a>{" "}
           With &nbsp;
           <HeartFilled style={{ color: "red" }} />
