@@ -9,13 +9,7 @@ const Projects = () => {
     <div className="projects">
       <h1 style={{ fontSize: "3rem" }}>All Projects</h1>
       {data.reverse().map((project, id) => (
-        <Project
-          key={id}
-          name={project.name}
-          desc={project.desc}
-          live={project.live}
-          code={project.code}
-        />
+        <Project key={id} {...project} />
       ))}
     </div>
   );
