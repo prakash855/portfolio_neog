@@ -1,8 +1,11 @@
 import React from "react";
+import { Typography } from "antd";
 import "./About.css";
 import Resume from "../../resume/myresume.pdf";
 import Skill from "../../components/Skills/Skill";
 import Prakash from "../../images/prakash.jpg";
+
+const { Title } = Typography;
 
 const desc = [
   "Web developer who loves writing and debugging code. As an engineer, I am always learning and adapting to new technologies to deliver user-friendly,well designed, & efficient applications.",
@@ -15,14 +18,13 @@ const About = () => {
         <img className="dp" src={Prakash} alt="" />
       </div>
       <div className="desc">
-        <h1>About Me</h1>
+        <Title level={2}>About Me</Title>
         {desc.map((des, id) => (
           <h3 key={id} style={{ fontWeight: 700 }}>
             {des}
           </h3>
         ))}
-        <h2 style={{ fontWeight: 700 }}>My Expertise</h2>
-
+        <Title level={2}>My Expertise</Title>
         <h3 style={{ fontWeight: 700 }}>
           Frontend Engineer with primary focus on React and JavaScript:{" "}
           <a href={Resume} target="#">
