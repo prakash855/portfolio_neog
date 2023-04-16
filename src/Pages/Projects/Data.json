@@ -1,110 +1,110 @@
 [
   {
-    "name": "Do you know me?",
-    "desc": "A CLI app built with nodeJS. You can play this game to find out how well you know me.",
-    "live": "https://replit.com/@PrakashAgrahari/doyouknowme#index.js",
-    "code": "https://github.com/prakash855/doyouknowme"
+      "name": "CRUD using MERN",
+      "desc": "Recently I have been learning basics of express & node & mongoDB, and created this basic app using MERN (MongoDB, Express, React & Node).",
+      "live": "https://i-too-social.netlify.app/",
+      "code": "https://github.com/prakash855/iSocial"
   },
   {
-    "name": "Do you know Prayagraj?",
-    "desc": "A CLI app built with nodeJS. It is a JavaScript CLI quiz app about Praygraj. It is fun game, at last it will return the results of the quationair",
-    "live": "https://replit.com/@PrakashAgrahari/doyouknowprayagraj#index.js",
-    "code": "https://github.com/prakash855/doyouknowprayagraj"
+      "name": "Disney+ Clone",
+      "desc": "A clone of well known entertainment video application, encompasses of firebase authentication, listing of categories like Originals & Trendings, contains seperate beutiful details page of each item.",
+      "live": "https://disney-plus-cdf5c.web.app/",
+      "code": "https://github.com/prakash855/disney-clone"
   },
   {
-    "name": "Banana Talk",
-    "desc": "Banana Translator App using Minion API. this is application is made using HTML, CSS and vanila JavaScript",
-    "live": "https://bananaspeaker.netlify.app/",
-    "code": "https://github.com/prakash855/neog-banana-speaks"
+      "name": "E-Commerse Application",
+      "desc": "An E-Commerse Application where one can get list of products and with functionalities like authentication, Wishlist, MyCart and having checkout options as well.",
+      "live": "https://ebazaar.netlify.app/",
+      "code": "https://github.com/prakash855/eBazaar"
   },
   {
-    "name": "Yoda Talk",
-    "desc": "Fun Translation App using Yoda API. this is application is made using HTML, CSS and vanila JavaScript",
-    "live": "https://neogyoda.netlify.app/",
-    "code": "https://github.com/prakash855/neog-yoda-speaks"
+      "name": "Component Library",
+      "desc": "A Component Library (Pencil UI) like your own bootstrap, where you have all the predefined classes and you just have to use those classes and you are ready to go!",
+      "live": "https://pencil-ui.netlify.app/",
+      "code": "https://github.com/prakash855/Pencil-UI"
   },
   {
-    "name": "Emoji-Interpreter App",
-    "desc": "This is an emoji Interpreter App made using React on CodeSandBox Platform, An Application which has basic React features like hooks and reuasable components",
-    "live": "https://emojimark8.netlify.app/",
-    "code": "https://github.com/prakash855/emoji_interpreter"
+      "name": "Food Order App",
+      "desc": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home. All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!",
+      "live": "https://food-order-app-cyan.vercel.app/",
+      "code": "https://github.com/prakash855/food-order-app"
   },
   {
-    "name": "Music Recommend. App 🎵",
-    "desc": "This app recommends Music with different genres too & made using React.",
-    "live": "https://oxbwl.csb.app/",
-    "code": "https://github.com/prakash855/MusicApp"
+      "name": "Dentist Management System",
+      "desc": "An app for dentists, this app can be used to schedule an appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form using fake API data, tech used-(React JS & Antd), this is Responive Application!",
+      "live": "https://myhospitalmanager.netlify.app/",
+      "code": "https://github.com/prakash855/hospital-management"
   },
   {
-    "name": "Cash Register Manager 💸",
-    "desc": "The app tells the cashier/user the amount to be returned in change to the customer with the minimum number of notes.",
-    "live": "https://cashregistermark10.netlify.app/",
-    "code": "https://github.com/prakash855/Cash_Register_Manager"
+      "name": "Data Representation React App Using Chart JS",
+      "desc": "An app to showcase datas of fake api in pie and bar chart form using few seconds of loader; tech used-(React JS & Material UI)",
+      "live": "https://profileui.netlify.app/",
+      "code": "https://github.com/prakash855/profile_ui"
   },
   {
-    "name": "Is your Birthday Lucky??",
-    "desc": "A website which checks whether your birthday is lucky or not by calculating if sum of digits in your birthdate is divisible by your lukcy number",
-    "live": "https://theluckybirthday.netlify.app/",
-    "code": "https://github.com/prakash855/lucky_birthday"
+      "name": "Stock profit & Loss Calculator App",
+      "desc": "Just an fun app to check whether you are lucky or not...",
+      "live": "https://stockm14.netlify.app/",
+      "code": "https://github.com/prakash855/mark14"
   },
   {
-    "name": "Fun with Triangles🔺",
-    "desc": "A simple yet powerful tool for learning about triangles., An Application where all the basic calculation related to Triangle can be solved, like finding area, finding whther triangle is possible or not, a quizz related to the triangle which will return the score you earn, it is fun! Play it now!",
-    "live": "https://mytriangle.netlify.app/",
-    "code": "https://github.com/prakash855/mark12"
+      "name": "Palindrome Birthday App",
+      "desc": "This website is just made for fun with Vanilla JS to build logic by checking whether the given birthdate is palindrome or not...",
+      "live": "https://isbdaypal.netlify.app/",
+      "code": "https://github.com/prakash855/mark13"
   },
   {
-    "name": "Palindrome Birthday App",
-    "desc": "This website is just made for fun with Vanilla JS to build logic by checking whether the given birthdate is palindrome or not...",
-    "live": "https://isbdaypal.netlify.app/",
-    "code": "https://github.com/prakash855/mark13"
+      "name": "Fun with Triangles🔺",
+      "desc": "A simple yet powerful tool for learning about triangles., An Application where all the basic calculation related to Triangle can be solved, like finding area, finding whther triangle is possible or not, a quizz related to the triangle which will return the score you earn, it is fun! Play it now!",
+      "live": "https://mytriangle.netlify.app/",
+      "code": "https://github.com/prakash855/mark12"
   },
   {
-    "name": "Stock profit & Loss Calculator App",
-    "desc": "Just an fun app to check whether you are lucky or not...",
-    "live": "https://stockm14.netlify.app/",
-    "code": "https://github.com/prakash855/mark14"
+      "name": "Is your Birthday Lucky??",
+      "desc": "A website which checks whether your birthday is lucky or not by calculating if sum of digits in your birthdate is divisible by your lukcy number",
+      "live": "https://theluckybirthday.netlify.app/",
+      "code": "https://github.com/prakash855/lucky_birthday"
   },
   {
-    "name": "Data Representation React App Using Chart JS",
-    "desc": "An app to showcase datas of fake api in pie and bar chart form using few seconds of loader; tech used-(React JS & Material UI)",
-    "live": "https://profileui.netlify.app/",
-    "code": "https://github.com/prakash855/profile_ui"
+      "name": "Cash Register Manager 💸",
+      "desc": "The app tells the cashier/user the amount to be returned in change to the customer with the minimum number of notes.",
+      "live": "https://cashregistermark10.netlify.app/",
+      "code": "https://github.com/prakash855/Cash_Register_Manager"
   },
   {
-    "name": "Dentist Management System",
-    "desc": "An app for dentists, this app can be used to schedule an appointment, entry of the pateint, edit the existing patient's data and and to render appoinments in calender form using fake API data, tech used-(React JS & Antd), this is Responive Application!",
-    "live": "https://myhospitalmanager.netlify.app/",
-    "code": "https://github.com/prakash855/hospital-management"
+      "name": "Music Recommend. App 🎵",
+      "desc": "This app recommends Music with different genres too & made using React.",
+      "live": "https://oxbwl.csb.app/",
+      "code": "https://github.com/prakash855/MusicApp"
   },
   {
-    "name": "Food Order App",
-    "desc": "Choose your favorite meal from our broad selection of available meals and enjoy a delicious lunch or dinner at home. All our meals are cooked with high-quality ingredients, just-in-time and of course by experienced chefs!",
-    "live": "https://food-order-app-cyan.vercel.app/",
-    "code": "https://github.com/prakash855/food-order-app"
+      "name": "Emoji-Interpreter App",
+      "desc": "This is an emoji Interpreter App made using React on CodeSandBox Platform, An Application which has basic React features like hooks and reuasable components",
+      "live": "https://emojimark8.netlify.app/",
+      "code": "https://github.com/prakash855/emoji_interpreter"
   },
   {
-    "name": "Component Library",
-    "desc": "A Component Library (Pencil UI) like your own bootstrap, where you have all the predefined classes and you just have to use those classes and you are ready to go!",
-    "live": "https://pencil-ui.netlify.app/",
-    "code": "https://github.com/prakash855/Pencil-UI"
+      "name": "Yoda Talk",
+      "desc": "Fun Translation App using Yoda API. this is application is made using HTML, CSS and vanila JavaScript",
+      "live": "https://neogyoda.netlify.app/",
+      "code": "https://github.com/prakash855/neog-yoda-speaks"
   },
   {
-    "name": "E-Commerse Application",
-    "desc": "An E-Commerse Application where one can get list of products and with functionalities like authentication, Wishlist, MyCart and having checkout options as well.",
-    "live": "https://ebazaar.netlify.app/",
-    "code": "https://github.com/prakash855/eBazaar"
+      "name": "Banana Talk",
+      "desc": "Banana Translator App using Minion API. this is application is made using HTML, CSS and vanila JavaScript",
+      "live": "https://bananaspeaker.netlify.app/",
+      "code": "https://github.com/prakash855/neog-banana-speaks"
   },
   {
-    "name": "Disney+ Clone",
-    "desc": "A clone of well known entertainment video application, encompasses of firebase authentication, listing of categories like Originals & Trendings, contains seperate beutiful details page of each item.",
-    "live": "https://disney-plus-cdf5c.web.app/",
-    "code": "https://github.com/prakash855/disney-clone"
+      "name": "Do you know Prayagraj?",
+      "desc": "A CLI app built with nodeJS. It is a JavaScript CLI quiz app about Praygraj. It is fun game, at last it will return the results of the quationair",
+      "live": "https://replit.com/@PrakashAgrahari/doyouknowprayagraj#index.js",
+      "code": "https://github.com/prakash855/doyouknowprayagraj"
   },
   {
-    "name": "CRUD using MERN",
-    "desc": "Recently I have been learning basics of express & node & mongoDB, and created this basic app using MERN (MongoDB, Express, React & Node).",
-    "live": "https://i-too-social.netlify.app/",
-    "code": "https://github.com/prakash855/iSocial"
+      "name": "Do you know me?",
+      "desc": "A CLI app built with nodeJS. You can play this game to find out how well you know me.",
+      "live": "https://replit.com/@PrakashAgrahari/doyouknowme#index.js",
+      "code": "https://github.com/prakash855/doyouknowme"
   }
 ]
