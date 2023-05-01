@@ -12,6 +12,7 @@ import {
   SiNetlify,
   SiStyledComponents,
   SiIonic,
+  SiTypescript,
 } from "react-icons/si";
 
 const Skill = () => {
@@ -45,6 +46,11 @@ const Skill = () => {
       name: "JAVASCRIPT",
       icon: <SiJavascript />,
       color: "#E8D44D",
+    },
+    {
+      name: "TYPESCRIPT",
+      icon: <SiTypescript />,
+      color: "#2F73BF",
     },
     {
       name: "REACT JS",
