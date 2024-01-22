@@ -13,6 +13,11 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
+import About from "./Pages/About/About";
+import Projects from "./Pages/Projects/Projects";
+import Blogs from "./Pages/Blogs/Blogs";
+import MyBlogs from "./Pages/Blogs/MyBlogs";
+import Home from "./Pages/Home/Home";
 import github from "./images/github.gif";
 import linkedin from "./images/linkedin.gif";
 import medium from "./images/medium.png";
@@ -136,3 +141,11 @@ export const iconStyles = {
   borderRadius: "2rem",
   fontSize: "3rem",
 };
+
+export const routes = [
+  { path: "/", component: Home, exact: true },
+  { path: "/about", component: About },
+  { path: "/projects", component: Projects },
+  { path: "/blogs", component: Blogs },
+  { path: "/test", component: MyBlogs },
+];
