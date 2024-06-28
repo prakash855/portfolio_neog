@@ -3,8 +3,25 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import { Switch, Route } from "react-router-dom";
 import { routes } from "./constants";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    const handleBeforeInstallPrompt = (e) => {
+      console.log("beforeinstallprompt event fired");
+      e.preventDefault();
+    };
+
+    window.addEventListener("beforeinstallprompt", handleBeforeInstallPrompt);
+
+    return () => {
+      window.removeEventListener(
+        "beforeinstallprompt",
+        handleBeforeInstallPrompt
+      );
+    };
+  }, []);
+
   return (
     <div className="App">
       <Header />
