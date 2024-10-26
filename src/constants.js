@@ -12,6 +12,7 @@ import {
   SiIonic,
   SiTypescript,
 } from "react-icons/si";
+import { FaNodeJs } from "react-icons/fa";
 
 import About from "./Pages/About/About";
 import Projects from "./Pages/Projects/Projects";
@@ -99,6 +100,11 @@ export const skills = [
     name: "REDUX",
     icon: <SiRedux />,
     color: "#7248B6",
+  },
+  {
+    name: "NodeJs",
+    icon: <FaNodeJs />,
+    color: "green",
   },
   {
     name: "IONIC REACT",
