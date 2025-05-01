@@ -21,7 +21,9 @@ const About = () => (
       ))}
       <Title level={2}>My Expertise</Title>
       <h3 style={{ fontWeight: 700 }}>
-        Frontend Engineer with primary focus on React and JavaScript:{" "}
+        Building seamless user experiences with React and modern JavaScript
+        Frontend specialist with deep expertise in React, crafting responsive,
+        high-performance web applications.:{" "}
         <a href={Resume} target="#">
           View Resume
         </a>

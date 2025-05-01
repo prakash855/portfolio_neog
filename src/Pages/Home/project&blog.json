@@ -1,14 +1,14 @@
 [
-    {
-        "name": "Projects",
-        "desc": "I believe Project Based Learning is the best approach to learn anything. Hence, I've got projects in all the different technolgies that I've learnt over time . I'd love you to check my projects",
-        "button": "My Projects",
-        "page": "/projects"
-    },
-    {
-        "name": "Blogs",
-        "desc": "I have discovered that Learning by Writing is one of the best practices to understand the concepts in-depth well. The blog posts represent my current understanding of the concepts and are expected to be updated along my journey",
-        "button": "Read Blogs",
-        "page": "/blogs"
-    }
+  {
+    "name": "Projects",
+    "desc": "I believe in learning by building. My portfolio showcases a collection of projects spanning the MERN stack and other technologies I've mastered over time. Each project reflects my passion for solving real-world problems through clean and efficient code. Feel free to explore the solutions I've crafted.",
+    "button": "Explore Projects",
+    "page": "/projects"
+  },
+  {
+    "name": "Blogs",
+    "desc": "Writing deepens understanding. My blogs capture insights, lessons, and practical knowledge I've gained throughout my journey as a developer. These articles reflect my evolving perspective on technology and problem-solving. Dive in to read, learn, and grow with me.",
+    "button": "Read Blogs",
+    "page": "/blogs"
+  }
 ]

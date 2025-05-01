@@ -39,8 +39,8 @@ export const links = [
 export const LINK_PORTFOLIO = "https://github.com/prakash855/portfolio_neog";
 
 export const webDescription = [
-  "Web developer who loves writing and debugging code. As an engineer, I am always learning and adapting to new technologies to deliver user-friendly,well designed, & efficient applications.",
-  "I am a quick learner and always curious to learn about new technologies. I enjoy the process of creating beautiful websites from designing to deploying it in the end.",
+  "Full-stack web developer specializing in the MERN stack (MongoDB, Express.js, React, Node.js) with 4+ years of experience building scalable, user-friendly, and high-performance applications.",
+  "I enjoy crafting clean, responsive UIs and integrating robust backends to deliver seamless user experiences — from designing to deploying fully functional web applications. Always curious and a quick learner, I continuously explore new technologies to enhance my skills and build impactful solutions.",
 ];
 
 export const blogDescription = [
