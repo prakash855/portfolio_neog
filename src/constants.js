@@ -2,13 +2,11 @@ import { AiFillHtml5, AiOutlineAntDesign, AiFillGithub } from "react-icons/ai";
 import { DiCss3, DiBootstrap, DiVisualstudio } from "react-icons/di";
 import { FcLinux } from "react-icons/fc";
 import {
-  SiMaterialUi,
   SiJavascript,
   SiReact,
   SiRedux,
   SiNpm,
   SiNetlify,
-  SiStyledComponents,
   SiIonic,
   SiTypescript,
 } from "react-icons/si";
