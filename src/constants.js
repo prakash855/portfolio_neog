@@ -73,12 +73,12 @@ export const skills = [
   },
   {
     name: "MATERIAL UI",
-    icon: <SiMaterialUi />,
+    icon: <AiOutlineAntDesign />,
     color: "#027FFE",
   },
   {
     name: "STYLED-COMPONENT",
-    icon: <SiStyledComponents />,
+    icon: <AiOutlineAntDesign />,
     color: "#FFA0E5",
   },
   {
